@@ -4,6 +4,6 @@ def factorial(num):
     else:
         return num*factorial(num-1)
 
-num=4  
+num=5  
 output=factorial(num)
 print(f"factorial of {num} is {output}")
