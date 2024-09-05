@@ -1,6 +1,7 @@
 def is_palindrome(word):
     reverse_word=word[::-1]
     return word==reverse_word
+    # hbh
 
 word="madam"
 if is_palindrome(word):
