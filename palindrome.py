@@ -3,7 +3,7 @@ def is_palindrome(word):
     return word==reverse_word
 
 
-word="madam"
+word="madama"
 if is_palindrome(word):
     print(f"{word} is palindrome")
 else:
