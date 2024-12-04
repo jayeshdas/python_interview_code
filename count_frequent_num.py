@@ -1,4 +1,5 @@
 def find_frequent_number(lst):
+    print(lst)
     frequent={}
     for i in lst:
         if i in frequent:
